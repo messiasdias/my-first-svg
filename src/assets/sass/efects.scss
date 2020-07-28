@@ -1,0 +1,47 @@
+@keyframes cloud {
+
+    0% {
+        visibility: visible;
+    }
+    49.9999%{ 
+        transform: translateX(100%) translateY(10%) ; 
+    }
+    50%{
+        visibility: hidden;
+        transform: translateX(-100%) translateY(-10%); 
+    }
+    50.0001%{
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0%) translateY(0%); 
+    }
+}
+
+@keyframes sun {
+    0% {
+        stroke: transparent;
+        stroke-opacity: 0;
+        stroke-width: 0;
+    }
+
+    100% {
+        stroke: rgba(white, .2);
+        stroke-opacity: 1;
+        stroke-width: 20;
+        box-shadow: 5px 5px 10px rgba(black, .3) ;
+    }
+}
+
+
+@keyframes ping-pong {
+    0% { transform: rotateZ(0deg);}
+    50% {transform: rotateZ(180deg);}
+    50% {transform: rotateZ(.2deg);}
+}
+
+
+@keyframes rotate {
+    0% {transform: rotate(0deg);}
+    99.999% {transform: rotate(360deg);}
+}
