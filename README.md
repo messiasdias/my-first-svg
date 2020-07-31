@@ -1,17 +1,10 @@
 # My First SVG Drawing
 
-## Vue Project setup
+## Vue Project setup 
+Install, run development serve and Build
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run dev
-```
-
-### Compiles and minifies for production
-```
 npm run build
 ```
 
